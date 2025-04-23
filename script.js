@@ -6,7 +6,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const message = document.getElementById('message').value;
 
     if (name && email && message) {
-        document.getElementById('formMessage').textContent = name+'!'+' Thank you for contacting us,\nNithin will soon be at your service';
+        document.getElementById('formMessage').textContent = name+'!'+' Thank you for contacting us,\nManish will soon be at your service';
         document.getElementById('contactForm').reset();
     } else {
         document.getElementById('formMessage').textContent = 'Please fill out all fields.';
